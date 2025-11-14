@@ -1,0 +1,12 @@
+name: Video 1080p
+    trash_id: holoforge-video-1080p
+    includeCustomFormatWhenRenaming: false
+    specifications:
+      - name: 1080p
+        implementation: ResolutionSpecification
+        negate: false
+        required: true
+        fields:
+          min: 1080
+          max: 1080
+    

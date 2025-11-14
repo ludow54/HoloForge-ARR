@@ -1,0 +1,12 @@
+name: Max 1080p 10GB
+    trash_id: holoforge-max-1080p-10gb
+    includeCustomFormatWhenRenaming: false
+    specifications:
+      - name: File size max 10GB
+        implementation: FileSizeSpecification
+        negate: false
+        required: false
+        fields:
+          min: 0
+          max: 10240
+    
