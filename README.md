@@ -1,2 +1,1 @@
-# HoloForge-ARR
-configuration profilarr holoforge
+# HoloForge ARR Profiles\n\nInitial skeleton generated for Radarr & Sonarr profiles.\n
