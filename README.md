@@ -1,1 +1,0 @@
-# HoloForge ARR Profiles\n\nInitial skeleton generated for Radarr & Sonarr profiles.\n
