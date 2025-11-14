@@ -1,0 +1,13 @@
+name: Series-4K-Light
+    type: series
+    upgradeAllowed: true
+    cutoff: WEBDL-2160p
+    minFormatScore: 0
+    cutoffFormatScore: 0
+    qualitySort: topThenBottom
+    qualities:
+      - name: Bluray-2160p
+      - name: WEBDL-2160p
+      - name: WEBRip-2160p
+    formatItems: []
+    

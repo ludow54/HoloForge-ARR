@@ -1,0 +1,11 @@
+name: Audio French
+    trash_id: holoforge-audio-french
+    includeCustomFormatWhenRenaming: false
+    specifications:
+      - name: French in title
+        implementation: ReleaseTitleSpecification
+        negate: false
+        required: true
+        fields:
+          value: '(?i)\b(TRUEFRENCH|FRENCH|VF(?:F|Q)?)\b'
+    
