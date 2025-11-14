@@ -1,0 +1,11 @@
+name: Audio Multi
+    trash_id: holoforge-audio-multi
+    includeCustomFormatWhenRenaming: false
+    specifications:
+      - name: MULTI in title
+        implementation: ReleaseTitleSpecification
+        negate: false
+        required: true
+        fields:
+          value: '(?i)\bMULTI\b'
+    

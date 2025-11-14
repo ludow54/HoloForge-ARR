@@ -1,0 +1,11 @@
+name: Audio DTS-HD MA
+    trash_id: holoforge-audio-dtshdma
+    includeCustomFormatWhenRenaming: false
+    specifications:
+      - name: DTS-HD MA
+        implementation: ReleaseTitleSpecification
+        negate: false
+        required: false
+        fields:
+          value: '(?i)\bDTS[-\. ]?HD[-\. ]?MA\b'
+    

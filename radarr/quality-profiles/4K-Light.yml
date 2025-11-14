@@ -1,0 +1,25 @@
+name: 4K-Light
+    type: movie
+    upgradeAllowed: true
+    cutoff: WEBDL-2160p
+    minFormatScore: 0
+    cutoffFormatScore: 0
+    qualitySort: topThenBottom
+    qualities:
+      - name: Bluray-2160p
+      - name: WEBDL-2160p
+      - name: WEBRip-2160p
+    formatItems:
+      - name: Audio French
+        trash_id: holoforge-audio-french
+        score: 200
+      - name: Audio Multi
+        trash_id: holoforge-audio-multi
+        score: 150
+      - name: Audio VOSTFR
+        trash_id: holoforge-audio-vostfr
+        score: 120
+      - name: Max 4K 20GB
+        trash_id: holoforge-max-4k-20gb
+        score: 50
+    

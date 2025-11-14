@@ -1,0 +1,11 @@
+name: Audio VOSTFR
+    trash_id: holoforge-audio-vostfr
+    includeCustomFormatWhenRenaming: false
+    specifications:
+      - name: VOSTFR in title
+        implementation: ReleaseTitleSpecification
+        negate: false
+        required: true
+        fields:
+          value: '(?i)\bVOSTFR\b'
+    
