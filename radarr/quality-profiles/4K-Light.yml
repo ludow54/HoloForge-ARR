@@ -1,0 +1,21 @@
+name: 4K-Light
+type: movie
+upgradeAllowed: true
+cutoff: WEBDL-2160p
+minFormatScore: 0
+cutoffFormatScore: 0
+qualities:
+  - name: Bluray-2160p
+  - name: WEBDL-2160p
+  - name: WEBRip-2160p
+formatItems:
+  - trash_id: hf-audio-french
+    score: 200
+  - trash_id: hf-audio-multi
+    score: 160
+  - trash_id: hf-audio-vostfr
+    score: 140
+  - trash_id: hf-video-4k-light
+    score: 120
+  - trash_id: hf-size-4k-20gb
+    score: 60

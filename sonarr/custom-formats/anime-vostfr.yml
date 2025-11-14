@@ -1,0 +1,10 @@
+name: HF Anime VOSTFR
+trash_id: hf-anime-vostfr
+includeCustomFormatWhenRenaming: false
+specifications:
+  - name: VOSTFR tag
+    implementation: ReleaseTitleSpecification
+    negate: false
+    required: true
+    fields:
+      value: "(?i)\\bVOSTFR\\b"

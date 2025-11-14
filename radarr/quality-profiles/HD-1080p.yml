@@ -1,0 +1,21 @@
+name: HD-1080p
+type: movie
+upgradeAllowed: true
+cutoff: Bluray-1080p
+minFormatScore: 0
+cutoffFormatScore: 0
+qualities:
+  - name: Bluray-1080p
+  - name: WEBDL-1080p
+  - name: WEBRip-1080p
+formatItems:
+  - trash_id: hf-audio-french
+    score: 200
+  - trash_id: hf-audio-multi
+    score: 160
+  - trash_id: hf-audio-vostfr
+    score: 140
+  - trash_id: hf-video-1080p
+    score: 100
+  - trash_id: hf-size-1080p-10gb
+    score: 50

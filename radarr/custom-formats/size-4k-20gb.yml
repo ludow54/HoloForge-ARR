@@ -1,0 +1,11 @@
+name: HF Max Size 4K 20GB
+trash_id: hf-size-4k-20gb
+includeCustomFormatWhenRenaming: false
+specifications:
+  - name: File size max 20GB
+    implementation: FileSizeSpecification
+    negate: false
+    required: false
+    fields:
+      min: 0
+      max: 20480

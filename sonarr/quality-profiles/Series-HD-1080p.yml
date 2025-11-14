@@ -1,0 +1,11 @@
+name: Series-HD-1080p
+type: series
+upgradeAllowed: true
+cutoff: Bluray-1080p
+minFormatScore: 0
+cutoffFormatScore: 0
+qualities:
+  - name: Bluray-1080p
+  - name: WEBDL-1080p
+  - name: WEBRip-1080p
+formatItems: []

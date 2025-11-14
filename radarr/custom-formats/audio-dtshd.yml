@@ -1,0 +1,10 @@
+name: HF Audio DTS-HD/MA
+trash_id: hf-audio-dtshd
+includeCustomFormatWhenRenaming: false
+specifications:
+  - name: DTS-HD MA tag
+    implementation: ReleaseTitleSpecification
+    negate: false
+    required: false
+    fields:
+      value: "(?i)\\bDTS[- .]?HD(?:[- .]?MA)?\\b"

@@ -1,0 +1,18 @@
+name: Anime-VOSTFR
+type: series
+upgradeAllowed: true
+cutoff: Bluray-1080p
+minFormatScore: 0
+cutoffFormatScore: 0
+qualities:
+  - name: Bluray-2160p
+  - name: WEBDL-2160p
+  - name: Bluray-1080p
+  - name: WEBDL-1080p
+formatItems:
+  - trash_id: hf-anime-vostfr
+    score: 200
+  - trash_id: hf-anime-1080p-5gb
+    score: 60
+  - trash_id: hf-anime-4k-10gb
+    score: 60

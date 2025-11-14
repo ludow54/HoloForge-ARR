@@ -1,0 +1,11 @@
+name: HF Video 4K Light
+trash_id: hf-video-4k-light
+includeCustomFormatWhenRenaming: false
+specifications:
+  - name: 2160p resolution
+    implementation: ResolutionSpecification
+    negate: false
+    required: true
+    fields:
+      min: 2160
+      max: 2160

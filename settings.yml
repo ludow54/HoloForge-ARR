@@ -1,0 +1,16 @@
+holoforge:
+  indexers:
+    - name: YGG
+      categories:
+        movies: [2145, 2178, 2181]
+        tv: [2179]
+        anime: [2179]
+  language_priority:
+    - TRUEFRENCH
+    - FRENCH
+    - MULTI
+    - VOSTFR
+  anime:
+    require_vostfr: true
+    max_size_gb_1080p: 5
+    max_size_gb_4k: 10

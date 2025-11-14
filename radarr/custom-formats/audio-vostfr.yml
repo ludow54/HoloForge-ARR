@@ -1,0 +1,10 @@
+name: HF Audio VOSTFR
+trash_id: hf-audio-vostfr
+includeCustomFormatWhenRenaming: false
+specifications:
+  - name: VOSTFR tag
+    implementation: ReleaseTitleSpecification
+    negate: false
+    required: true
+    fields:
+      value: "(?i)\\bVOSTFR\\b"

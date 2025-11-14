@@ -1,0 +1,10 @@
+name: HF Allow DV/HDR
+trash_id: hf-allow-dv-hdr
+includeCustomFormatWhenRenaming: false
+specifications:
+  - name: DV/HDR tags
+    implementation: ReleaseTitleSpecification
+    negate: false
+    required: false
+    fields:
+      value: "(?i)\\b(DV|DOLBY[ .]?VISION|HDR10[+]?|HDR)\\b"
